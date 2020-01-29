@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background: linear-gradient(white, #b8bed3);
+}
+
+header{
+    width: 100%;
+    min-width: 980px;
+    background-color: #3b5998; 
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #385898;
+}
+
+header button{
+    padding: 5px;
+    border: black 0.7px solid;
+    color: #ffffff;
+    background-color: #4267b2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+.registr input{
+    padding: 8px 10px;
+    border-radius: 3px;
+    text-align: left;
+    padding-left: 10px; 
+}
+
+.table-header{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Helvetica Arial sans-serif;
+    border-collapse:separate; 
+    border-spacing: 0 10px; 
+    margin-left: auto;
+    margin-right: 10%;
+    
+}
+
+.registr div{
+    margin-top: 10px;
+}
+
+.image{
+    text-align: center;
+}
+
+.space{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.table-header a{
+    color: #9cb4d8;
+    font-weight: bold;
+}
+
+.registr button{
+    color: #ffffff;
+    font-size: 19px;
+    background-color: #69a74e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 7px 20px;
+    border-radius: 3px;
+    border-color: darkgreen;
+    text-align: center;
+}
+
+.registr button:hover{
+    background-color: greenyellow;
+}
+
+.logo{
+    float: left;
+    display: block;
+    padding: 16px 0 0 0;
+    margin-left: 80px;
+    box-sizing: border-box;
+}
+
+.table-header input{
+    padding: 3px 3px 4px;
+}
+
+.registr label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d2129;
+    padding: 0px 10px 0px 3px;
+}
+
+#prelast-text{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px 0px;
+    color: #777777;
+}
+
+select{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+#last-text{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 0px 0px;
+    margin: 10px 0px 0px;
+    color: #666666;
+}
+
+#h2{
+    font-size: 36px;
+    color: #333333;
+    margin: 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#fast{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d2129;
+}
+
+.date{
+    font-size: 16px;
+    margin: 10px 0px 5px;
+    color: #90949c;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio{
+    margin: 0px 4px 0px 0px;
+    padding: 5px 0px 5px 4px;
+}
+
+#one{
+    color: #0e385f;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0px 0px;
+    font-weight: bold;
+}
+
+
+
+
+
