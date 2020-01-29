@@ -5,65 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Instagram</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="phone.png" alt="phone picture" class="phone">
-            </div>
-            <div class="col-sm-6">
-                <div class="right-column text-center">
-                    <img src="logo.png" class="instagram-logo">
-                    <button type="submit" class="btn btn-primary btn-block"><img src="facebook-logo.png" class="fb-logo">Войти
-                        через Facebook</button>
-                    <p class="or-para">ИЛИ</p>
-                    <form action="https://www.instagram.com/">
-                        <div class="form-input-block">
-                            <input type="text" class="form-inputs" placeholder="Моб. телефон или эл. адрес" name="email-or-phone">
-                        </div>
-                        <div class="form-input-block">
-                            <input type="text" class="form-inputs" placeholder="Имя и фамилия" name="fullname">
-                        </div>
-                        <div class="form-input-block">
-                            <input type="text" class="form-inputs" placeholder="Имя пользователя" name="username">
-                        </div>
-                        <div class="form-input-block">
-                            <input type="text" class="form-inputs" placeholder="Пароль" name="password">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block" id="sign-up-button">Регистрация</button>
-                    </form>
-                    <p class="terms">Регистрируясь, вы принимаете наши <b><a href="#" class="terms-highlightened">Условия</a></b>,
-                        <b><a href="#" class="terms-highlightened">Политику использования данных</a></b>
-                        и
-                        <b><a href="#" class="terms-highlightened">Политику в отношении файлов cookie</a></b>.</p>
-                </div>
-                <div class="right-column-login text-center">Есть аккаунт? <a href="#">Вход</a></div>
-            </div>
+    <section class="main__image">
+        <img src="1.png" alt="Instagram" width="80%">
+    </section>
+    <section class="main__content">
+        <div><img src="2.png" id="logo__text">
+            <h3 class="reg">Зарегистрируйтесь, чтобы<br>
+                смотреть фото и видео ваших<br>
+                друзей.</h3><br>
         </div>
-    </div>
-    <div class="foot-wrapper">
-        <div class="content">
-            <div>
-                <ul class="unordered-list">
-                    <li class="list-el">О НАС</li>
-                    <li class="list-el">ПОДДЕРЖКА</li>
-                    <li class="list-el">ПРЕССА</li>
-                    <li class="list-el">API</li>
-                    <li class="list-el">ВАКАНСИИ</li>
-                    <li class="list-el">КОНФИДЕНЦИАЛЬНОСТЬ</li>
-                    <li class="list-el">УСЛОВИЯ</li>
-                    <li class="list-el">ДИРЕКТОРИИ</li>
-                    <li class="list-el">ПРОФИЛИ</li>
-                    <li class="list-el">ХЕШТЕГИ</li>
-                    <li class="list-el">ЯЗЫК</li>
-                </ul>
-            </div>
+        <div>
+            <form>
+                <input id="inner__form" type="image" src="3.png">
+                <hr><br>
+                <input class="input" type="email" id="email" name="email" placeholder="Моб. телефон или эл. адрес" required><br>
+                <input class="input" type="text" id="text" name="text" placeholder="Имя и фамилия" required><br>
+                <input class="input" type="text" id="text" name="text" placeholder="Имя пользователя" required><br>
+                <input class="input" type="password" id="password" name="password" placeholder="Пароль" required><br>
+                <input class="submit" type="submit" value="Регистрация">
+                <h4 class="cookies">Регистрируясь, вы принимаете <br>
+                    наши <a class="conditions" href="">Условия, Политику <br> 
+                        использования данных</a> и <br> 
+                    <a class="conditions" href="">Политику в отношении файлов <br> cookie.</a></h4> <br>
+                
+            </form>
         </div>
-        <div class="content">
-            <span class="copyright">© 2019 INSTAGRAM</span>
+        <div id="foot">
+            <label for="acc">Есть аккаунт?</label>
+            <a id="login" href="">Вход</a>
         </div>
-    </div>
+        <label id="app" for="app">Установите приложение.</label>
+    </section>
 </body>
 </html>
