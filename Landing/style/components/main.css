@@ -1,0 +1,68 @@
+
+.main{
+    background: url(../../img/main-background.png) center no-repeat;
+    height: 100vh;
+}
+
+.main__inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main__image{
+    width: 40%;
+    position: relative;
+    height: 100%;
+}
+
+.main__image img{
+    width: 108%;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: -60px;
+}
+
+.main__content{
+    width: 60%;
+}
+
+.main__content h1{
+    font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 75px;
+    font-style: normal;
+}
+
+.main__content p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 26px;
+    margin: 0px 0px 40px;
+    letter-spacing: 2px;
+    
+}
+
+.main__content button{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    background-color: #FF5F6D;
+    padding: 12px 54px;
+    border-radius: 5px;
+    border: 1px solid #FF5F6D;
+    transition: 0.6s;
+}
+
+.main__content button:hover{
+    background-color: #f04654;
+    transition: 0.6s;
+}
+

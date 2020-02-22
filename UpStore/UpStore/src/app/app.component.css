@@ -1,0 +1,59 @@
+/* Большие экраны */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* Выставляет элементы к концу строки по главной оси */
+  justify-content: flex-end;
+}
+/* Средние экраны */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* На экранах средних размеров мы их равномерно центрируем, распределяя между ними пустое место */
+    justify-content: space-around;
+  }
+}
+/* Маленькие экраны */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* На малых экранах мы выставляем элементы в колонку */
+    flex-direction: column;
+  }
+}
+.container {
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+    font-family: Lato;
+  }
+  div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 30px;
+    text-align: center;
+  }
+  .zoom {
+    transition: transform .2s; /* Animation */
+    
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  

@@ -1,0 +1,27 @@
+.banner{
+    background: url(../../img/text_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+.banner__inner{
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0px 50px;
+}
+
+
+.banner__inner p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin: 0 0 15px;
+}
+
+.banner__inner h1{
+    margin: 10px 0px 0px;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 400;
+}

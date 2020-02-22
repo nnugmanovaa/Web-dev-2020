@@ -1,0 +1,41 @@
+<div *ngIf="category">
+  <button  style="margin-left:200px" (click)="goBack()">go back</button>
+ <h1 style="margin-left:200px">Products</h1>
+  <div style="margin-left:200px" *ngFor="let product of products">
+
+    <table>
+        <tr>
+                  <td style="width:35%; ">
+          <h3>
+            <a [title]="product.name + ' details'" href={{product.website}}>
+              {{ product.name }}
+            </a><br><br>
+            <a  class="more" routerLink="/productId/{{product.id}}">
+               Details
+            </a>
+          </h3>
+
+          <p *ngIf="product.img">
+              <img src={{product.img}}>
+            </p>
+      </td>
+<td style="width:5%"></td>
+<td>
+    <p class="desc" *ngIf="product.description">
+      Описание: {{ product.description }}
+    </p>
+   <strong> <p class="descript" *ngIf="product.rating">
+        Рейтинг: {{ product.rating }}
+      </p></strong>
+
+      <a href="https://telegram.me/share/url?url=<URL>&text=<{{product.website}}>">
+        <button class="btn">
+          Share
+        </button>
+      </a>
+    </td>
+      </tr>
+  </table>
+  </div>
+
+</div>

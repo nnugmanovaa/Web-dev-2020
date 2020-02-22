@@ -1,0 +1,57 @@
+.app__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.app__image{
+    width: 55%; 
+}
+
+.app__text{
+    width: 45%;
+}
+
+.app__text h1{
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Open Sans';
+    color: #3e3e3e;
+    margin-bottom: 30px;
+}
+
+.app__text p{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    line-height: 25px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.app__text button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #ffffff;
+    background-color: #FF5F6D;
+    border-radius: 5px;
+    border: none;
+    padding: 11px 30px;
+    font-family: 'Open Sans', sans-serif;   
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.app__image img{
+    width: 100%;
+}
+
+.play__button{
+    width: 17px;
+    height: 16px;
+    margin-right: 10px;
+    
+}

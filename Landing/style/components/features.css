@@ -1,0 +1,93 @@
+.features{
+    text-align: center;
+    background-color: #FAF9FF;
+    padding: 100px 0px;
+}
+
+.features__name{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.features__name h1{
+    font-size: 40px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3e3e3e;
+    font-weight: 600;
+}
+
+.features__name p{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    font-weight: 400;
+    padding: 30px 0 ;
+}
+
+.features__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features__card{
+    width: calc(33% - 15px);
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.features__card:hover{
+    background-color: #ff5e6d;
+}
+
+.features__card__icon{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid #ff5e6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__card h3{
+    font-size: 20px;
+    line-height: 26px;
+    color: #666666;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.features__card p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #666666;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px 0;
+}
+
+.features__card:hover h3{
+    color: #ffffff;
+}
+
+.features__card:hover p{
+    color: #ffffff;
+}
+
+.features__card:hover .features__card__icon{
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+
+.features__card:hover .fas{
+    color: #ffffff;
+}
+
+

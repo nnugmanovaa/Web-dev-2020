@@ -1,0 +1,73 @@
+/* HeroesComponent's private CSS styles */
+/* Большие экраны */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* Выставляет элементы к концу строки по главной оси */
+  justify-content: flex-end;
+}
+/* Средние экраны */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* На экранах средних размеров мы их равномерно центрируем, распределяя между ними пустое место */
+    justify-content: space-around;
+  }
+}
+/* Маленькие экраны */
+@media all and (max-width: 500px) {
+  .navigation {
+    /* На малых экранах мы выставляем элементы в колонку */
+    flex-direction: column;
+  }
+}
+.container {
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+.categories {
+    margin: 0 0 2em 0;
+    
+    
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .categories li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 2.6em;
+    border-radius: 4px;
+  }
+  .categories li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  .categories li.selected {
+    background-color: #CFD8DC;
+    color: white;
+  }
+  .categories li.selected:hover {
+    background-color: #BBD8DC;
+    color: white;
+  }
+  .categories .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 2.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
