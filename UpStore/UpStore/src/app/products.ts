@@ -6,5 +6,5 @@ export interface Product {
   img :string ;
   website:string;
   rating: number;
-
+  categoryId: number;
 }

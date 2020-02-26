@@ -16,7 +16,6 @@ import { ProductComponent } from './product/product.component';
 @NgModule({
   imports: [
     BrowserModule,
-    
     FormsModule,
     AppRoutingModule
   ],
@@ -26,7 +25,7 @@ import { ProductComponent } from './product/product.component';
    ProductListComponent,
     CategoriesComponent,
     ProductComponent,
-    
+
   ],
   bootstrap: [ AppComponent ]
 })

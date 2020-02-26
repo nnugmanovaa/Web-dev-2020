@@ -2,7 +2,7 @@
   <button  style="margin-left:200px" (click)="goBack()">go back</button>
  <h1 style="margin-left:200px">Products</h1>
   <div style="margin-left:200px" *ngFor="let product of products">
-
+  <div *ngIf="category.id == product.categoryId">
     <table>
         <tr>
                   <td style="width:35%; ">
@@ -37,5 +37,5 @@
       </tr>
   </table>
   </div>
-
+</div>
 </div>
