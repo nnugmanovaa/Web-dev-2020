@@ -12,6 +12,7 @@ import { MessagesComponent }    from './messages/messages.component';
 import { AppRoutingModule }     from './app-routing.module';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
+import { ActorListComponent } from './actor-list/actor-list.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    ActorListComponent
   ],
   bootstrap: [ AppComponent ]
 })
