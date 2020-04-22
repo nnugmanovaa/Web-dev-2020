@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac866a3-0759-485b-958d-b92206d161cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../TourOfHeroes/src/app/hero.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../TourOfHeroes/src/app/hero.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TourOfHeroes/src/app/heroes/heroes.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../TourOfHeroes/src/app/heroes/heroes.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TourOfHeroes/src/app/messages/messages.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../TourOfHeroes/src/app/messages/messages.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../shop_back/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../shop_back/.idea/shop_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/.idea/shop_back.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../shop_back/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/api/models.py" afterDir="false" />
@@ -10,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../../shop_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../shop_back/shop_back/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/shop_back/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../shop_back/shop_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../shop_back/shop_back/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week8/example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week8/example/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week13/hh_back" />
   </component>
   <component name="RunManager">
     <configuration name="hh_back" type="Python.DjangoServer" factoryName="Django server">
@@ -45,6 +51,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="hh_back.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -74,10 +81,38 @@
       <option name="presentableId" value="Default" />
       <updated>1585821579527</updated>
       <workItem from="1585821667873" duration="3254000" />
+      <workItem from="1586541584649" duration="1325000" />
+      <workItem from="1587548826312" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1587548954518">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587548954518" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1586543703772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586543703772" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1586543703772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586543703772" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1586543703772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586543703772" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1586543703772">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586543703772" />
+    <state x="349" y="168" key="com.intellij.ide.util.TipDialog" timestamp="1587548832757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="168" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587548832757" />
   </component>
 </project>

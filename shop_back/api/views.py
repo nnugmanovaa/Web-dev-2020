@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from django.http.response import JsonResponse
-from api.models import Product,Category
+from api.models import Category
 # Create your views here.
 
-def product_list(request):
+""" def product_list(request):
     products = Product.objects.all()
     products_json = [product.to_json() for product in products]
     return JsonResponse(products_json, safe=False)
@@ -28,11 +28,9 @@ def get_category_detail(request, category_id):
         return JsonResponse({'error': 'category does not exist'})
     return JsonResponse(category.to_json())
 
+
 def get_products_from_category(request, category_id):
-    try:
-        products = Product.objects.filter(category_id = category_id)
+        products = Product.objects.filter(category=category_id)
         products_json = [product.to_json() for product in products]
-        return JsonResponse(products_json, safe=False)
-    except Exception as e:
-        return JsonResponse({'error': str(e)})
+        return JsonResponse(products_json, safe=False)"""
 

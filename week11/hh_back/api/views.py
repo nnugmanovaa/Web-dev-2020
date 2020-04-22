@@ -48,7 +48,7 @@ def vacancy_detail(request, vacancy_id):
 
 
 def top_vacancies(request):
-	if request.method == "GET":
+    if request.method == "GET":
 		vacancies = Vacancy.objects.annotate(Count('salary')).order_by('-salary')[:10]
 		vacancies_json = [vacancy.to_json() for vacancy in vacancies]
 		return JsonResponse(vacancies_json, safe = False)

@@ -12,7 +12,7 @@ class Category(models.Model):
             'name': self.name
         }
 
-class Product(models.Model):
+""" class Product(models.Model):
     name = models.CharField(max_length=300)
     price = models.FloatField()
     description = models.TextField()
@@ -27,6 +27,6 @@ class Product(models.Model):
             'price': self.price,
             'description': self.description,
             'count': self.count,
-            'category_id': self.category_id,
-        }
+            'category_id': self.category_id
+        }"""
 
